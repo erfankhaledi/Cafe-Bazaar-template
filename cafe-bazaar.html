@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font-Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- css Files -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="media-queries.css">
+  <!-- Template Title -->
+  <title>Cafe-Bazaar</title>
+</head> 
+<body>
+
+<!-- Start Header Content -->
+<header>
+    <!-- Start Desktop Navbar -->
+    <nav class="container flex justify-between items-center none-menu-desktop">
+      <div class="logo flex items-center">
+        <img src="https://webassets.cafebazaar.ir/images/bazaar-logo.svg" alt="CafeBazar Logo">
+      </div>
+      <ul class="menu flex flex-row justify-between items-center mr-8 absolute">
+        <li><a href="#">برنامه</a></li>
+        <li><a href="#">بازی</a></li>
+        <li><a href="#">پشتیبانی</a></li>
+        <li class="none-menu"><a href="#">توسعه‌دهندگان بازار</a></li>
+        <li class="none-menu"><a href="#">تبلیغات در بازار</a></li>
+        <li class="none-menu"><a href="#">فرصت‌های شغلی</a></li>
+        <li class="none-more"><a href="#">سایر</a></li>
+      </ul>
+      <div class="flex flex-row items-center relative margin">
+        <div class="search ml-4">
+          <div class="search-wrapper">
+            <input type="text" placeholder="جست وجو در بازار">
+            <i class="fa fa-search"></i>
+          </div>
+        </div>
+            <a class="flex items-center mt-0 ml-4 profile" title="ورود به بازار" href="#">
+              <div class="profile-circle flex items-center justify-center">
+                <svg width="19" height="25" fill="none" xmlns="http://www.w3.org/2000/svg" class="flex flex-row items-center">
+                  <path d="M8 8c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z" fill="#9da0af"></path>
+                </svg>
+              </div>
+            </a>
+          <button width="16" height="16" class="download-button pointer fs-16 flex items-center">دانلود بازار</button>
+          <button class="dots-button"></button>
+      </div>
+    </nav>
+    <!-- End Desktop Navbar -->
+
+    <!-- Start Mobile Navbar -->
+      <nav class="mobile-nav">
+        <div class="mobile-nav flex items-start">
+          <div class="mobile-nav-top flex justify-between items-start mt-">
+            <div id="mobile-nav-input" class="relative flex items-center w-full mt-001">
+              <svg
+                class="absolute right-2"
+                width="16"
+                height="16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path 
+                  d="M13.877 13.367l-3.303-3.328a4.828 4.828 0 001.171-3.164A4.87 4.87 0 006.873 2 4.87 4.87 0 002 6.875a4.87 4.87 0 008.035 3.703l3.327 3.305c.07.07.164.117.257.117a.376.376 0 00.258-.117.332.332 0 000-.516zM6.873 11A4.13 4.13 0 012.75 6.875 4.13 4.13 0 016.873 2.75a4.13 4.13 0 014.123 4.125A4.13 4.13 0 016.873 11z"
+                  fill="#717485"
+                ></path>
+              </svg>
+              <input
+                class="w-full focus:outline-none focus:bg-white bg-[#f9fafd] py-2 px-8 rounded-lg border border-[#f0f0f0 text-sm"
+                type="text"
+                placeholder="جستجو در بازار"
+              />
+            </div>
+            <a class="flex items-start ml-4 profile" title="ورود به بازار" href="#">
+              <div class="profile-circle flex items-center justify-center">
+                <svg width="19" height="25" fill="none" xmlns="http://www.w3.org/2000/svg" class="flex flex-row items-center">
+                  <path d="M8 8c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z" fill="#9da0af"></path>
+                </svg>
+              </div>
+            </a>
+          </div>
+          <div class="mobile-nav-list mb-2 mt-5 sm:w-3/4 sm:mx-auto">
+            <ul class="flex justify-between">
+              <li class="relative text-sm list-none">
+                <a
+                  href="#"
+                  class="active--link text-sm font-medium"
+                  >برای شما</a
+                >
+              </li>
+              <li class="relative list-none">
+                <a
+                  href="#"
+                  class="text-neutral text-sm font-medium"
+                  >دسته بندی ها</a
+                >
+              </li>
+              <li class="relative list-none">
+                <a
+                  href="#"
+                  class="text-neutral text-sm font-medium"
+                  >کودک</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      <nav>
+      <!-- End Mobile Navbar -->
+</header>
+<!-- End Header Content -->
+
+<!-- Start Main Content -->
+<main>
+  <!-- Start Item Boxes -->
+  <section class="mt-5 hidden lg:block none-header-section">
+        <div class="container sm:px-4">
+          <div class="bg-white border border-[#0000001a] b-radius bg">
+            <h1 class="py-4 mr-5 font">دانلود بازی جدید 2023 و رایگان؛ کاملا تست‌شده و نیم‌بها</h1>
+          </div>
+        </div>
+  </section>
+  <section class="sm:mb-0 app-practical mt-2">
+        <div class="container sm:px-4">
+          <div class="bg border sm:border-solid sm:border-[#0000001a] b-radius">
+            <div class="flex items-center justify-between sm:border-b sm:border-[#0000001a]">
+              <h2 class="py-2 sm:py-3 mr-4 font">بازی‌های کم‌حجم</h2>
+              <a
+                href="./allApps.html"
+                class="flex items-center ml-4 text-sm group"
+                title="برنامه های کاربردی"
+              >
+                <span class="group-hover:text-primary">بیشتر</span>
+                <svg
+                  class="stroke-secondary group-hover:stroke-primary"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 7L9 12L14 17"
+                    stroke=""
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+          </div>
+          <hr />
+            <div class="flex justify-center align-center mr-0 sm:mr-3 my-4 relative border-b pointer">
+              <div class="scroll-container">
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/1-10/01.webp" alt="Product 1">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/1-10/1.webp" alt="Product 2">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/1-10/2.webp" alt="Product 3">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/1-10/3.webp" alt="Product 4">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/1-10/4.webp" alt="Product 5">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/1-10/5.webp" alt="Product 6">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/1-10/6.webp" alt="Product 7">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/1-10/7.webp" alt="Product 8">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/1-10/8.webp" alt="Product 9">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/1-10/9.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/1-10/10.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+               <!-- <svg id="leftArrow" class="arrow left" viewBox="0 0 100 100">
+                  <use xlink:href="#scrollArrow" style="fill:white" transform="translate(50,50)"/>
+                </svg>-->
+              </div>
+          </div>
+        </div>
+  </section>
+  <section class="sm:mb-0 app-practical mt-2">
+        <div class="container sm:px-4">
+          <div class="bg border sm:border-solid sm:border-[#0000001a] b-radius">
+            <div class="flex items-center justify-between sm:border-b sm:border-[#0000001a]">
+              <h2 class="py-2 sm:py-3 mr-4 font">بازی‌های دیتادار</h2>
+              <a
+                href="./allApps.html"
+                class="flex items-center ml-4 text-sm group"
+                title="برنامه های کاربردی"
+              >
+                <span class="group-hover:text-primary">بیشتر</span>
+                <svg
+                  class="stroke-secondary group-hover:stroke-primary"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 7L9 12L14 17"
+                    stroke=""
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+          </div>
+          <hr />
+            <div class="flex align-center justify-start mr-0 sm:mr-3 my-4 relative border-b pointer">
+              <div class="scroll-container">
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/11-20/1.webp" alt="Product 1">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/11-20/2.webp" alt="Product 2">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/11-20/3.webp" alt="Product 3">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/11-20/4.webp" alt="Product 4">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/11-20/5.webp" alt="Product 5">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/11-20/6.webp" alt="Product 6">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/11-20/7.webp" alt="Product 7">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/11-20/8.webp" alt="Product 8">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/11-20/9.webp" alt="Product 9">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/11-20/10.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/11-20/11.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+  </section>
+  <section class="sm:mb-0 app-practical mt-2">
+        <div class="container sm:px-4">
+          <div class="bg border sm:border-solid sm:border-[#0000001a] b-radius">
+            <div class="flex items-center justify-between sm:border-b sm:border-[#0000001a]">
+              <h2 class="py-2 sm:py-3 mr-4 font">کودکانه‌های بازار</h2>
+              <a
+                href="./allApps.html"
+                class="flex items-center ml-4 text-sm group"
+                title="برنامه های کاربردی"
+              >
+                <span class="group-hover:text-primary">بیشتر</span>
+                <svg
+                  class="stroke-secondary group-hover:stroke-primary"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 7L9 12L14 17"
+                    stroke=""
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+          </div>
+          <hr />
+            <div class="flex align-center justify-start mr-0 sm:mr-3 my-4 relative border-b pointer">
+              <div class="scroll-container">
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/21-30/01.webp" alt="Product 1">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/21-30/1.webp" alt="Product 2">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/21-30/2.webp" alt="Product 3">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/21-30/3.webp" alt="Product 4">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/21-30/4.webp" alt="Product 5">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/21-30/5.webp" alt="Product 6">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/21-30/6.webp" alt="Product 7">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/21-30/7.webp" alt="Product 8">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/21-30/8.webp" alt="Product 9">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/21-30/9.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/21-30/10.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+               <!-- <svg id="leftArrow" class="arrow left" viewBox="0 0 100 100">
+                  <use xlink:href="#scrollArrow" style="fill:white" transform="translate(50,50)"/>
+                </svg>-->
+              </div>
+          </div>
+        </div>
+  </section>
+  <section class="sm:mb-0 app-practical mt-2">
+        <div class="container sm:px-4">
+          <div class="bg border sm:border-solid sm:border-[#0000001a] b-radius">
+            <div class="flex items-center justify-between sm:border-b sm:border-[#0000001a]">
+              <h2 class="py-2 sm:py-3 mr-4 font">بازی‌های منتخب سردبیر بازار</h2>
+              <a
+                href="./allApps.html"
+                class="flex items-center ml-4 text-sm group"
+                title="برنامه های کاربردی"
+              >
+                <span class="group-hover:text-primary">بیشتر</span>
+                <svg
+                  class="stroke-secondary group-hover:stroke-primary"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 7L9 12L14 17"
+                    stroke=""
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+          </div>
+          <hr />
+            <div class="flex align-center justify-start mr-0 sm:mr-3 my-4 relative border-b pointer">
+              <div class="scroll-container">
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/31-40/01.webp" alt="Product 1">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/31-40/1.webp" alt="Product 2">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/31-40/2.webp" alt="Product 3">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/31-40/3.webp" alt="Product 4">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/31-40/4.webp" alt="Product 5">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/31-40/5.webp" alt="Product 6">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/31-40/6.webp" alt="Product 7">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/31-40/7.webp" alt="Product 8">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/31-40/8.webp" alt="Product 9">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/31-40/9.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/31-40/10.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+               <!-- <svg id="leftArrow" class="arrow left" viewBox="0 0 100 100">
+                  <use xlink:href="#scrollArrow" style="fill:white" transform="translate(50,50)"/>
+                </svg>-->
+              </div>
+          </div>
+        </div>
+  </section>
+  <section class="sm:mb-0 app-practical mt-2">
+        <div class="container sm:px-4">
+          <div class="bg border sm:border-solid sm:border-[#0000001a] b-radius">
+            <div class="flex items-center justify-between sm:border-b sm:border-[#0000001a]">
+              <h2 class="py-2 sm:py-3 mr-4 font">داغ‌ترین‌ها برای دیگران</h2>
+              <a
+                href="./allApps.html"
+                class="flex items-center ml-4 text-sm group"
+                title="برنامه های کاربردی"
+              >
+                <span class="group-hover:text-primary">بیشتر</span>
+                <svg
+                  class="stroke-secondary group-hover:stroke-primary"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 7L9 12L14 17"
+                    stroke=""
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+          </div>
+          <hr />
+            <div class="flex align-center justify-start mr-0 sm:mr-3 my-4 relative border-b pointer">
+              <div class="scroll-container">
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/41-50/01.webp" alt="Product 1">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/41-50/1.webp" alt="Product 2">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/41-50/2.webp" alt="Product 3">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/41-50/3.webp" alt="Product 4">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/41-50/4.webp" alt="Product 5">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/41-50/5.webp" alt="Product 6">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/41-50/6.webp" alt="Product 7">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/41-50/7.webp" alt="Product 8">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/41-50/8.webp" alt="Product 9">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/41-50/9.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/41-50/10.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+  </section>
+  <section class="sm:mb-0 app-practical mt-2">
+        <div class="container sm:px-4">
+          <div class="bg border sm:border-solid sm:border-[#0000001a] b-radius">
+            <div class="flex items-center justify-between sm:border-b sm:border-[#0000001a]">
+              <h2 class="py-2 sm:py-3 mr-4 font">بازی‌های آفلاین</h2>
+              <a
+                href="./allApps.html"
+                class="flex items-center ml-4 text-sm group"
+                title="برنامه های کاربردی"
+              >
+                <span class="group-hover:text-primary">بیشتر</span>
+                <svg
+                  class="stroke-secondary group-hover:stroke-primary"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 7L9 12L14 17"
+                    stroke=""
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+          </div>
+          <hr />
+            <div class="flex align-center justify-start mr-0 sm:mr-3 my-4 relative border-b pointer">
+              <div class="scroll-container">
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/51-60/01.webp" alt="Product 1">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/51-60/1.webp" alt="Product 2">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/51-60/2.webp" alt="Product 3">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/51-60/3.webp" alt="Product 4">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/51-60/4.webp" alt="Product 5">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/51-60/5.webp" alt="Product 6">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/51-60/6.webp" alt="Product 7">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/51-60/7.webp" alt="Product 8">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/51-60/8.webp" alt="Product 9">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/51-60/9.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/51-60/10.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+               <!-- <svg id="leftArrow" class="arrow left" viewBox="0 0 100 100">
+                  <use xlink:href="#scrollArrow" style="fill:white" transform="translate(50,50)"/>
+                </svg>-->
+              </div>
+          </div>
+        </div>
+  </section>
+  <section class="sm:mb-0 app-practical mt-2">
+        <div class="container sm:px-4">
+          <div class="bg border sm:border-solid sm:border-[#0000001a] b-radius">
+            <div class="flex items-center justify-between sm:border-b sm:border-[#0000001a]">
+              <h2 class="py-2 sm:py-3 mr-4 font">بازی‌های تازه به بازار رسیده</h2>
+              <a
+                href="./allApps.html"
+                class="flex items-center ml-4 text-sm group"
+                title="برنامه های کاربردی"
+              >
+                <span class="group-hover:text-primary">بیشتر</span>
+                <svg
+                  class="stroke-secondary group-hover:stroke-primary"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 7L9 12L14 17"
+                    stroke=""
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+          </div>
+          <hr />
+            <div class="flex align-center justify-start mr-0 sm:mr-3 my-4 relative border-b pointer">
+              <div class="scroll-container">
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/61-70/01.webp" alt="Product 1">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/61-70/1.webp" alt="Product 2">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/61-70/2.webp" alt="Product 3">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/61-70/3.webp" alt="Product 4">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/61-70/4.webp" alt="Product 5">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/61-70/5.webp" alt="Product 6">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/61-70/6.webp" alt="Product 7">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/61-70/7.webp" alt="Product 8">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/61-70/8.webp" alt="Product 9">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/61-70/9.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/61-70/10.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+               <!-- <svg id="leftArrow" class="arrow left" viewBox="0 0 100 100">
+                  <use xlink:href="#scrollArrow" style="fill:white" transform="translate(50,50)"/>
+                </svg>-->
+              </div>
+          </div>
+        </div>
+  </section>
+  <section class="sm:mb-0 app-practical mt-2">
+        <div class="container sm:px-4">
+          <div class="bg border sm:border-solid sm:border-[#0000001a] b-radius">
+            <div class="flex items-center justify-between sm:border-b sm:border-[#0000001a]">
+              <h2 class="py-2 sm:py-3 mr-4 font">این بازی اعصاب نداره!</h2>
+              <a
+                href="./allApps.html"
+                class="flex items-center ml-4 text-sm group"
+                title="برنامه های کاربردی"
+              >
+                <span class="group-hover:text-primary">بیشتر</span>
+                <svg
+                  class="stroke-secondary group-hover:stroke-primary"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 7L9 12L14 17"
+                    stroke=""
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+          </div>
+          <hr />
+            <div class="flex align-center justify-start mr-0 sm:mr-3 my-4 relative border-b pointer">
+              <div class="scroll-container">
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/71-80/01.webp" alt="Product 1">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/71-80/1.webp" alt="Product 2">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/71-80/2.webp" alt="Product 3">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/71-80/3.webp" alt="Product 4">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/71-80/4.webp" alt="Product 5">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/71-80/5.webp" alt="Product 6">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/71-80/6.webp" alt="Product 7">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/71-80/7.webp" alt="Product 8">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/71-80/8.webp" alt="Product 9">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/71-80/9.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/71-80/10.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+               <!-- <svg id="leftArrow" class="arrow left" viewBox="0 0 100 100">
+                  <use xlink:href="#scrollArrow" style="fill:white" transform="translate(50,50)"/>
+                </svg>-->
+              </div>
+          </div>
+        </div>
+  </section>
+  <section class="sm:mb-0 app-practical mt-2">
+        <div class="container sm:px-4">
+          <div class="bg border sm:border-solid sm:border-[#0000001a] b-radius">
+            <div class="flex items-center justify-between sm:border-b sm:border-[#0000001a]">
+              <h2 class="py-2 sm:py-3 mr-4 font">آسمان در دست تو</h2>
+              <a
+                href="./allApps.html"
+                class="flex items-center ml-4 text-sm group"
+                title="برنامه های کاربردی"
+              >
+                <span class="group-hover:text-primary">بیشتر</span>
+                <svg
+                  class="stroke-secondary group-hover:stroke-primary"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 7L9 12L14 17"
+                    stroke=""
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+          </div>
+          <hr />
+            <div class="flex align-center justify-start mr-0 sm:mr-3 my-4 relative border-b pointer">
+              <div class="scroll-container">
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/81-90/01.webp" alt="Product 1">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/81-90/1.webp" alt="Product 2">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/81-90/2.webp" alt="Product 3">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/81-90/3.webp" alt="Product 4">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/81-90/4.webp" alt="Product 5">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/81-90/5.webp" alt="Product 6">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/81-90/6.webp" alt="Product 7">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/81-90/7.webp" alt="Product 8">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/81-90/8.webp" alt="Product 9">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/81-90/9.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/81-90/10.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+               <!-- <svg id="leftArrow" class="arrow left" viewBox="0 0 100 100">
+                  <use xlink:href="#scrollArrow" style="fill:white" transform="translate(50,50)"/>
+                </svg>-->
+              </div>
+          </div>
+        </div>
+  </section>
+  <section class="sm:mb-0 app-practical mt-2">
+        <div class="container sm:px-4">
+          <div class="bg border sm:border-solid sm:border-[#0000001a] b-radius">
+            <div class="flex items-center justify-between sm:border-b sm:border-[#0000001a]">
+              <h2 class="py-2 sm:py-3 mr-4 font">با برترین‌ها امتیاز بگیر</h2>
+              <a
+                href="./allApps.html"
+                class="flex items-center ml-4 text-sm group"
+                title="برنامه های کاربردی"
+              >
+                <span class="group-hover:text-primary">بیشتر</span>
+                <svg
+                  class="stroke-secondary group-hover:stroke-primary"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 7L9 12L14 17"
+                    stroke=""
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+          </div>
+          <hr />
+            <div class="flex align-center justify-start mr-0 sm:mr-3 my-4 relative border-b pointer">
+              <div class="scroll-container">
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/91-100/01.webp" alt="Product 1">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/91-100/1.webp" alt="Product 2">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/91-100/2.webp" alt="Product 3">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/91-100/3.webp" alt="Product 4">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/91-100/4.webp" alt="Product 5">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/91-100/5.webp" alt="Product 6">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/91-100/6.webp" alt="Product 7">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/91-100/7.webp" alt="Product 8">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/91-100/8.webp" alt="Product 9">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/91-100/9.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              <div class="flex justify-center align-center box-shadow shadow-size margin">
+                <div class="padding b-radius">
+                  <img class="w-110 b-radius-img" src="image/91-100/10.webp" alt="Product 10">
+                  <h4 class="text-center text-sm f-w">hello Erfan</h4>
+                  <p class="text-center text-sm f-w">رنگ آمیزی</p>
+                </div>
+              </div>
+              
+               <!-- <svg id="leftArrow" class="arrow left" viewBox="0 0 100 100">
+                  <use xlink:href="#scrollArrow" style="fill:white" transform="translate(50,50)"/>
+                </svg>-->
+              </div>
+          </div>
+        </div>
+  </section>
+  <!-- End Item Boxes -->
+
+  <!-- Start Pagination -->
+  <section class="mt-2 hidden lg:block">
+        <div class="container sm:px-4 ">
+          <div class="bg-white border border-[#0000001a] b-radius bg">
+            <div class="flex items-center justify-center center">
+              <div class="flex items-center justify-center-center">
+                <div class="previous-page dimmed"> &lt; صفحه قبلی</div> 
+                <div class="green-box flex items-center justify-center text-lg white b-radius">۱</div>
+                <div class="next-page">صفحه بعدی  &gt;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <!-- End Pagination -->
+
+  <!-- Start Text -->
+  <section class="collaps mt-2 mb-4 sm:mt-5">
+        <div class="container sm:px-4">
+          <div
+            id="collaps-acordion"
+            class="bg-white bg border sm:border-solid border-[#0000001a] sm:rounded-lg sm:p-4 overflow-hidden relative"
+          >
+            <div
+              id="collaps-content"
+              class="collaps-expand overflow-hidden max-h-[230px] transition-all duration-150 mb-4"
+            >
+              <p class="mb-4">
+                این روزها همه‌ جا می‌توانید بازی کنید؛ روی گوشی هوشمند یا تبلت، روی کنسول‌های بازی، بر بستر وب یا حتی با برخی از اپلیکیشن‌های پیام‌رسان. شاید شما هم جزو آن افرادی باشید که در مطب دکتر، مترو، بانک و تمامی فضاهای انتظار، بازی‌هایی مثل کلش اف کلنز یا آمیرزا یا حتی کالاف دیوتی بازی می‌کنند.
+                </p>
+                <p class="mb-9">
+                اولین بازی برای گوشی‌های همراه، بازی Snake یا مار بود. بسیاری از مردم با این بازی ساده خاطره دارند. با آمدن سیستم‌ عامل اندروید، بازار <strong>بازی‌های اندرویدی</strong> نیز رونق گرفت. <strong>بازی‌های اندروید</strong> در ابتدا بسیار ساده بودند و به مرور زمان پیچیده و پیچیده‌تر شدند تاجایی که گرافیک‌های بسیار حرفه‌ای در حد بازی‌های کنسولی دارند. با <strong>بازی‌های جدید</strong> می‌توانید با بازیکن‌هایی از سراسر ایران و جهان رقابت کنید، ساعت‌ها سرگرم شوید و حتی با قابلیت واقعیت مجازی، جهان اطرافتان را از دریچه‌ای جدید ببینید.
+              </p>
+              
+              <h2 class="mb-2 text-lg">
+                <strong>چرا بازی‌هایمان را از بازار دانلود و نصب کنیم؟</strong>
+              </h2>
+              <p class="mb-4">
+                افزون بر کیفیت، باقی جنبه‌های دنیای بازی‌های موبایل گسترش پیدا کرده است. هیچ ژانری نیست که نتوانید بازی‌های دلخواهتان را در آن پیدا کنید. از بازی‌های سرگرم‌کننده گرفته تا بازی جنگی و بازی شبیه‌سازی. در بازار می‌توانید جدیدترین بازی‌های ایرانی و خارجی را به‌صورت کاملا امن نصب کنید؛ زیرا سپر امنیت بازار همه اپلیکیشن‌ها را تست می‌کند تا آلوده به بدافزار نباشد. 
+              </p>
+              <p class="mb-4">
+                هروقت بازی‌ای را تمام کردید، می‌توانید با دانلود بازی‌های جدید باز هم سرگرم شوید. از آنجایی که تمام اپلیکیشن‌هایی که در بازار قرار دارند از نظر امنیت بررسی می‌شوند پس نیازی نیست نگران امنیت گوشی یا ویروسی شدن آن باشید. به همین دلیل است که پیشنهاد می‌شود برنامه‌هایتان را از بستری ایمن مانند بازار دانلود کنید و از استفاده از سایت‌های نامطمئن خودداری کنید.
+              </p>
+              <p class="mb-9">
+                تمام برنامه‌های بازار به محض انتشار نسخه‌ی جدید، بروزرسانی می‌شوند. اگر بازی موردعلاقه‌یتان را از قبل دانلود کرده‌اید، می‌توانید بلافاصله آن را بروزرسانی کنید. در قسمت بازی‌های بروزشده‌ی برگزیده می‌توانید جدیدترین بازی‌های بروزشده را با نسخه‌ی نهایی ببینید. بازار بهترین بازی‌های موبایل را انتخاب می‌کند.
+              </p>
+              <h2 class="mb-2 text-lg">
+                <strong>حوصله‌یتان سر رفته است؟ یک بازی جدید امتحان کنید</strong>
+              </h2>
+              <p class="mb-4">
+                هیچ‌چیز بهتر از یک بازی جدید برای سرگرمی نیست. ما بازی‌های مختلف را بررسی می‌کنیم و برترین‌ها را انتخاب می‌کنیم. برترین بازی‌های جدید از نگاه ما، گزیده‌ای از بهترین بازی‌هایی است که تازه وارد بازار شده‌اند و از نگاه سردبیران بازار بهترین بازی‌های جدید هستند. با یک حرکت می‌توانید بهترین‌ بازی‌های اندروید روز را بازی کنید.
+              </p>
+              <p class="mb-9">
+                ما در بازار برای راحتی شما، بازی‌ها را به ۱۰ دسته‌ی مختلف تقسیم کرده‌ایم. این دسته‌بندی شامل بازی‌ استراتژیک، بازی اکشن، بازی‌ امتیازی، تفننی، رانندگی، شبیه‌سازی، بازی کلمات و دانستنی‌ها، کودک، معمایی و بازی ورزشی است. همچنین مجموعه‌هایی را طراحی کرده‌ایم تا به راحتی بتوانید بازی‌هایی با یک موضوع مشخص را یکجا ببینید. با ورود به دسته‌ی محبوب خود می‌توانید از راه ردیف‌های زیر مجموعه، از بین برترین بازی‌های جدید، آخرین بازی‌ها و پیشنهادهای سردبیران بازار، بازی‌ای جذاب را پیدا و نصب کنید.
+              </p>
+              <h2 class="mb-2 text-lg">
+                <strong>بازی‌های استراتژیک برای مغز‌های متفکر</strong>
+              </h2>
+              <p class="mb-4">
+                در بازی‌های استراتژی قدرت تصمیم‌گیریتان را به چالش بکشید. از بازی‌های کلاسیک مثل شطرنج تا بازی‌های پیچیده‌تر مثل کلش اف کلنز و کلش رویال را می‌توانید از این دسته‌بندی دانلود و نصب کنید. در این بازی‌ها می‌توانید ارتش خودتان را بسازید، از قلمروی خود دفاع و در میدان نبرد مبارزه کنید. محبوب‌ترین بازی‌های استراتژی معمولا آنلاین و چندنفره هستند و باید با بازیکنان دیگر بجنگید و به آن‌ها پیروز شوید. این بازی‌ها فراتر از یک بازی فکری ساده‌ا‌ند، باید به‌ دقت نقشه بکشید و برنامه‌ریزی کنید تا پیروز میدان شوید. همچنین می‌توانید چندین و چند بار آن‌ها را بازی کنید؛ چون یک استراتژی همیشه و در برابر همه‌ی رقبا جواب نخواهد داد. با دانلود بازی‌های استراتژیک به روند فکر کردن و برنامه‌ریزیتان شکل دیگری می‌دهید و قدرت استدلال‌تان را بیش از پیش تقویت می‌کنید.
+              </p>
+              <h2 class="mb-2 text-lg">
+                <strong>بازی‌های اکشن بازار؛ یکی مرد جنگی به از صد هزار</strong>
+              </h2>
+              <p class="mb-4">
+                بازی‌های اکشن همان بازی‌هایی هستند که گاهی از آن‌ها به‌عنوان بازی جنگی یاد می‌شود؛ اما فکر نکنید همه‌ی ماجرا همین است. بازی‌های اکشن بر چالش‌های فیزیکی، مخصوصا هماهنگی چشم و دست و سرعت واکنش متمرکز هستند. این ژانر نیز ژانرهای فرعی‌ مختلفی را در خود جای داده است؛ مانند بازی‌های رزمی، تیراندازی، مبارزه‌ای و سکوبازی. در این بازی‌ها معمولا نقش شخصیتی را بازی می‌کنید که در هر مرحله باید از چالش‌ها عبور کند و به مرحله‌ی بعد برود. این بازی‌ها از محبوب‌ترین بازی‌ها برای بیشتر افراد به‌ شمار می‌آیند: قلبتان را به تپش درمی‌آورند، انگشتانتان به‌ سرعت حرکت می‌کند و سرعت واکنشتان را به چالش می‌کشند. اگر باور نمی‌کنید کافی است با دانلود بازی‌هایی مثل پابجی موبایل یا کال اف دیوتی موبایل این مسئله را امتحان کنید.
+              </p>
+              <h2 class="mb-2 text-lg">
+                <strong>بازی‌های مخصوص کودکان بازار، جذاب و آموزنده</strong>
+              </h2>
+              <p class="mb-4">
+                برای کودکانتان دنبال بازی می‌گردید؟ ما به این هم فکر کرده‌ایم. علاوه بر امکان فعال کردن حالت کودک بازار می‌توانید از دسته‌بندی بازی‌های مخصوص کودکان نیز استفاده کنید تا بهترین بازی‌ها را برای فرزندانتان دانلود و نصب کنید. بازی‌های مخصوص کودکان معمولا ساده، جذاب و در عین حال، مناسب سن کودک شما هستند. در دسته‌ی کودک می‌توانید بازی‌هایی را پیدا و انتخاب کنید که به کودکانتان مهارت‌های اولیه‌ را آموزش می‌دهند یا گاهی صرفا او را بدون تأثیرات منفی سرگرم می‌کنند. از کودکان خردسال که بازی‌های ساده‌تری را دوست دارند تا کودکان بزرگ‌تر که دنبال بازی باب اسفنجی می‌گردند، همگی با بازی‌های مناسب کودک سرگرم خواهند شد.
+              </p>
+              <h2 class="mb-2 text-lg">
+                <strong>محبوب‌ترین بازی‌های اندرویدی بازار کدام‌ها هستند؟</strong>
+              </h2>
+              <p class="mb-4">
+                در بین ژانرها، بازی‌های اکشن، استراتژی، تفننی و شبیه‌سازی محبوبیت زیادی بین کاربران دارند. در بین بازی‌ها نیز پابجی، کالاف دیوتی، کلش اف کلنز، کلش رویال، فورتنایت، آمیرزا، کانتر، کلاچ و جدولانه از تاپ‌ترین گیم‌های اندرویدی بازار هستند.
+              </p>
+            </div>
+            
+          </div>
+        </div>
+  </section>
+  <!-- End Text -->
+</main>
+<!-- End Main Content -->
+
+<!-- Start Footer-->
+  <footer id="footer" class="bg pt-12 lg:pt-16 footer-shadow">
+    <!-- Start Desktop footer -->
+      <div class="footer none lg:block">
+        <div class="container sm:px-4 bg">
+
+          <div class="footer-description flex flex-row justify-between mb-7 relative">
+            <div>
+              <div class="fs-18">
+                بازار، نخستین و پرمخاطب‌ترین فروشگاه ایرانی برنامه‌ها و بازی‌های موبایلی دنیای اندروید
+              </div>
+              <p class="fs-14">
+                صد‌ها هزار بازی ایرانی و خارجی دیتادار یا بدون دیتا را با ترافیک نیم‌بها نصب کنید و به سادگی خرید درون‌ برنامه‌ای انجام دهید.<br> بازار مجهز به سپر امنیت است که برنامه‌ها را توسط آنتی ویروس‌ها بررسی کرده و به محض شناسایی برنامه‌ی مخرب، به کاربر<br> اعلام می‌کند که آن برنامه را از دستگاه خود پاک کند.
+              </p>
+            </div>
+            <div class="footer-download-box flex flex-row items-center justify-between mb-6">
+              <img src="image/footer/do.webp">
+              <div class="">
+                <div class="fs-16 mt-8">
+                  دانلود اپلیکیشن بازار
+                </div>
+                <p class="fs-12">پرمخاطب‌ترین اپ‌استور (اندروید) فارسی‌زبانان</p>
+                <div class="buttons">
+                  <a href="#" data-color="primary" data-variant="outline" data-size="sm" data-arrow-focusable class="newbtn text-sm mr-auto">نسخهٔ اندروید</a>
+                  <a href="#" data-color="primary" data-variant="outline" data-size="sm" data-arrow-focusable class="newbtn text-sm mr-auto">نسخهٔ اندرویدTV</a>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          <hr>
+          
+          <div id="footer" class="grid grid-cols-6 items-center mb-8 mt-9 ">
+            <ul class="flex flex-col">
+              <li class="mb-4 list-none f-w f-footer">
+                <a href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  نصب بازار
+                </a>
+              </li>
+              <li class="mb-4 list-none f-w f-footer">
+                <a title="بازی اندروید" href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  بازی اندروید
+                </a>
+              </li>
+              <li class="mb-4 list-none f-w f-footer">
+                <a href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  برنامه اندروید
+                </a>
+              </li>
+            </ul>
+            <ul class="flex flex-col">
+              <li class="mb-4 list-none f-w f-footer">
+                <a title="توسعه‌دهندگان بازار" href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  توسعه‌دهندگان بازار
+                </a>
+              </li>
+              <li class="mb-4 list-none f-w f-footer">
+                <a href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  فرصت‌های شغلی
+                </a>
+              </li>
+              <li class="mb-4 list-none f-w f-footer">
+                <a href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  نشان دریافت از بازار
+                </a>
+              </li>
+            </ul>
+            <ul class="flex flex-col">
+              <li class="mb-4 list-none f-w f-footer">
+                <a title="شرایط استفاده" href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  شرایط استفاده
+                </a>
+              </li>
+              <li class="mb-4 list-none f-w f-footer">
+                <a href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  حریم خصوصی
+                </a>
+              </li>
+              <li class="mb-4 list-none f-w f-footer">
+                <a href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  پشتیبانی
+                </a>
+              </li>
+            </ul>
+            <ul class="flex flex-col">
+              <li class="mb-4 list-none f-w f-footer">
+                <a href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  بلاگ بازار
+                </a>
+              </li>
+              <li class="mb-4 list-none f-w f-footer">
+                <a href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  خبرها و بیانیه‌های بازار
+                </a>
+              </li>
+              <li class="mb-4 list-none f-w f-footer">
+                <a href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                بلاگ فنی بازار
+                </a>
+              </li>
+            </ul>
+            <ul class="flex flex-col">
+              <li class="mb-4 list-none f-w f-footer">
+                <a href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  تبلیغات در بازار
+                </a>
+              </li>
+              <li class="mb-4 list-none f-w f-footer">
+                <a href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  درباره ما
+                </a>
+              </li>
+              <li class="mb-4 list-none f-w f-footer">
+                <a href="#" class="transition-all duration-150 hover:text-primary text-sm">
+                  تماس با ما
+                </a>
+              </li>
+            </ul>
+            <div class="flex flex-row flex-end padding-footer">
+              <a href="#" class="border b-radius ml-4 ">
+                <img class="padding-footer" src="image/footer/Samandehi.webp" alt="Samandehi" />
+              </a>
+              <a href="#" class="border b-radius">
+                <img class="padding-footer" src="image/footer/Enamad.png" alt="Enamad" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div id="copy-right" class="flex flex-row justify-between container">
+            <p class="py-4 select-none f-w-1 mt-01 mr-auto f-footer">
+              تمامی حقوق این سایت متعلق به شرکت آوای همراه هوشمند هزاردستان (فروشگاه برنامه‌های موبایلی اندروید بازار) است.
+            </p>
+            <div class="pointer ml-4 mt-1">
+              <i class="fa fa-linkedin mr-auto" style="font-size:24px"></i>
+              <i class="fa fa-instagram mr-auto" style="font-size:24px"></i>
+              <i class="fa fa-twitter mr-auto" style="font-size:24px"></i>
+            </div>
+        </div>
+      </div>
+    <!-- End Desktop Footer -->
+
+      <!-- Start Botoom Menu (Mobile-Footer) -->
+      <div id="bottom-menu" class="bg-white shadow-[0_2px_12px_rgba(0,0,0,0.1)] fixed bottom-0 w-full left-0 right-0 z-50 lg:hidden">
+        <div class="container sm:px-4 mr-10">
+          <div class="bottom-menu__items sm:w-3/4 mx-auto flex justify-between items-center h-14 select-none">
+            <div class="w-1/3">
+              <a href="#" class="flex flex-col items-center justify-center">
+                <svg
+                  fill="#2a2a2a"
+                  width="22px"
+                  height="22px"
+                  viewBox="0 0 32 32"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.772 16.043l-15.012-15.724c-0.189-0.197-0.449-0.307-0.721-0.307s-0.533 0.111-0.722 0.307l-15.089 15.724c-0.383 0.398-0.369 1.031 0.029 1.414 0.399 0.382 1.031 0.371 1.414-0.029l1.344-1.401v14.963c0 0.552 0.448 1 1 1h6.986c0.551 0 0.998-0.445 1-0.997l0.031-9.989h7.969v9.986c0 0.552 0.448 1 1 1h6.983c0.552 0 1-0.448 1-1v-14.968l1.343 1.407c0.197 0.204 0.459 0.308 0.722 0.308 0.249 0 0.499-0.092 0.692-0.279 0.398-0.382 0.411-1.015 0.029-1.413zM26.985 14.213v15.776h-4.983v-9.986c0-0.552-0.448-1-1-1h-9.965c-0.551 0-0.998 0.445-1 0.997l-0.031 9.989h-4.989v-15.777c0-0.082-0.013-0.162-0.032-0.239l11.055-11.52 10.982 11.507c-0.021 0.081-0.036 0.165-0.036 0.252z"
+                  ></path>
+                </svg>
+                <span class="text-secondary mt-1 hover:text-secondary relative">
+                   خانه    
+                  <div class="bottom-menu__item--active"></div>
+                </span>
+              </a>
+            </div>
+            <div class="w-1/3 text-sm">
+              <a href="#" class="flex flex-col items-center justify-center ">
+                <svg class="" width="24" height="24" fill="none">
+                  <path
+                    d="M5.482 2A3.477 3.477 0 002 5.472v2.176a3.477 3.477 0 003.482 3.473h2.182a3.477 3.477 0 003.482-3.473V5.472A3.477 3.477 0 007.663 2H5.482zM16.336 2a3.477 3.477 0 00-3.481 3.472v2.176a3.477 3.477 0 003.481 3.473h2.182A3.477 3.477 0 0022 7.648V5.472A3.477 3.477 0 0018.518 2h-2.182zM5.482 12.825A3.477 3.477 0 002 16.297v2.176a3.477 3.477 0 003.482 3.473h2.182a3.477 3.477 0 003.482-3.473v-2.176a3.477 3.477 0 00-3.482-3.472H5.482zM16.336 12.88a3.477 3.477 0 00-3.481 3.472v2.176A3.477 3.477 0 0016.335 22h2.182A3.477 3.477 0 0022 18.528v-2.176a3.477 3.477 0 00-3.482-3.473h-2.182z"
+                    fill="#717485"
+                  ></path>
+                </svg>
+                <span class="relative text-sm">
+                برنامه
+                  <div class=""></div>
+                </span>
+              </a>
+            </div>
+            <div class="w-1/3">
+              <a href="#" class="flex flex-col items-center justify-center">
+                <svg class="" width="24" height="24" fill="none">
+                  <path
+                    d="M11.57 16.844A.588.588 0 0012 17c.156 0 .313-.04.43-.156l5.625-5a.662.662 0 00.039-.899.662.662 0 00-.899-.039l-4.57 4.063V2.625A.617.617 0 0012 2a.617.617 0 00-.625.625v12.344l-4.57-4.063a.662.662 0 00-.899.04.662.662 0 00.04.898l5.624 5zM19.5 14.5h-1.875a.617.617 0 00-.625.625c0 .352.273.625.625.625H19.5c.703 0 1.25.547 1.25 1.25v2.5c0 .703-.547 1.25-1.25 1.25h-15c-.703 0-1.25-.547-1.25-1.25V17c0-.703.547-1.25 1.25-1.25h1.875A.617.617 0 007 15.125a.617.617 0 00-.625-.625H4.5A2.518 2.518 0 002 17v2.5C2 20.867 3.133 22 4.5 22h15c1.367 0 2.5-1.133 2.5-2.5V17c0-1.367-1.133-2.5-2.5-2.5zm-.313 3.75a.95.95 0 00-.937-.938.95.95 0 00-.938.938c0 .508.43.938.938.938a.95.95 0 00.938-.938z"
+                    fill="#717485"
+                  ></path>
+                </svg>
+                <span class="relative"
+                  >نصب بازار
+                  <div class=""></div>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Botoom Menu-->
+  </footer>
+<!-- End Footer -->
+</body>
+</html>

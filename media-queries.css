@@ -1,0 +1,159 @@
+/* Responsive Container Class */
+
+@media (min-width: 640px) {
+    .container {
+      max-width: 88%;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+      max-width: 88%;
+    }
+}
+@media (min-width: 1024px) {
+    .container {
+      max-width: 88%;
+    }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 88%;
+  } 
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1374px;
+  }
+}
+
+
+/* Desktop screen */
+/* 1440px - 2000px */
+@media (min-width: 1440px) and (max-width: 8000px) {
+  .container {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .none-more {
+    display: none;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  #bottom-menu {
+    display: none;
+  }
+}
+
+/* 1200px - 1439px */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .container {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .none-menu {
+    display: none;
+  }
+  .none-more {
+    display: flex;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  #bottom-menu {
+    display: none;
+  }
+}
+
+/* 1024px - 1199px */
+@media (min-width: 1024px) and (max-width: 1199px){
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .none-menu {
+    display: none;
+  }
+  .none-more {
+    display: flex;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  #bottom-menu {
+    display: none;
+  }
+}
+
+/* Phone Screen */
+/* 1023px - 640px */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .none-menu-desktop {
+    display: none;
+  }
+  .none-header-section {
+    display: none;
+  }
+  .mobile-nav {
+    display: list-item;
+  }
+  .footer {
+    display: none;
+  }
+}
+
+
+/* 1px - 639px */
+@media (min-width: 1px) and (max-width: 639px) {
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .none-menu-desktop {
+    display: none;
+  }
+  .none-header-section {
+    display: none;
+  }
+  .mobile-nav {
+    display: list-item;
+  }
+  .mobile-nav-list ul li a {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  /* Profile Button */
+  .profile {
+    padding-top: 0.9%;
+    margin-right: 5px;
+  }
+  .profile-circle {
+    width: 40px;
+    height: 40px;
+    padding-top: 0.9%;
+  }
+  .footer {
+    display: none;
+  }
+}
+
+
+/* Footer font-size */
+@media (min-width: 1024px) and (max-width: 1250px) {
+  .container {
+    width: 100%;
+  }
+  .f-footer {
+    font-size: 0.5rem;
+    font-weight: 900;
+  }
+}
